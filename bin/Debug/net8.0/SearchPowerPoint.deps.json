@@ -1,0 +1,39 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "SearchPowerPoint/1.0.0": {
+        "dependencies": {
+          "SearchPowerPoint.Domain": "1.0.0"
+        },
+        "runtime": {
+          "SearchPowerPoint.dll": {}
+        }
+      },
+      "SearchPowerPoint.Domain/1.0.0": {
+        "runtime": {
+          "SearchPowerPoint.Domain.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "SearchPowerPoint/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "SearchPowerPoint.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

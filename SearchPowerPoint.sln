@@ -1,0 +1,49 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35303.130
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SearchPowerPoint", "SearchPowerPoint.csproj", "{BBF7FD1A-78F8-4B65-8839-16FDF1FA0BA3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SearchPowerPointAPI", "..\SearchPowerPointAPI\SearchPowerPointAPI.csproj", "{466E16B6-6C26-4379-91EA-444AD992CDCE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SearchPowerPoint.Domain", "..\SearchPowerPoint.Domain\SearchPowerPoint.Domain.csproj", "{F548F08C-6D7D-4159-BAD8-3BC5308DA108}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SearchPowerPoint.Application", "..\SearchPowerPoint.Application\SearchPowerPoint.Application.csproj", "{7BA3D158-CA27-4495-8ED5-245841A3B821}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SearchPowerPoint.Infraestructure", "..\SearchPowerPoint.Infraestructure\SearchPowerPoint.Infraestructure.csproj", "{1C7B798E-48E2-4683-AA95-FFF1EB3B0B9B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BBF7FD1A-78F8-4B65-8839-16FDF1FA0BA3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BBF7FD1A-78F8-4B65-8839-16FDF1FA0BA3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BBF7FD1A-78F8-4B65-8839-16FDF1FA0BA3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BBF7FD1A-78F8-4B65-8839-16FDF1FA0BA3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{466E16B6-6C26-4379-91EA-444AD992CDCE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{466E16B6-6C26-4379-91EA-444AD992CDCE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{466E16B6-6C26-4379-91EA-444AD992CDCE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{466E16B6-6C26-4379-91EA-444AD992CDCE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F548F08C-6D7D-4159-BAD8-3BC5308DA108}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F548F08C-6D7D-4159-BAD8-3BC5308DA108}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F548F08C-6D7D-4159-BAD8-3BC5308DA108}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F548F08C-6D7D-4159-BAD8-3BC5308DA108}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7BA3D158-CA27-4495-8ED5-245841A3B821}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7BA3D158-CA27-4495-8ED5-245841A3B821}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7BA3D158-CA27-4495-8ED5-245841A3B821}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7BA3D158-CA27-4495-8ED5-245841A3B821}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1C7B798E-48E2-4683-AA95-FFF1EB3B0B9B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1C7B798E-48E2-4683-AA95-FFF1EB3B0B9B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1C7B798E-48E2-4683-AA95-FFF1EB3B0B9B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1C7B798E-48E2-4683-AA95-FFF1EB3B0B9B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9CFA45D7-6161-4313-8AAC-7F6CEC4C9E4E}
+	EndGlobalSection
+EndGlobal

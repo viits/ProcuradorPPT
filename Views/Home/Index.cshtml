@@ -1,0 +1,17 @@
+﻿@using SearchPowerPoint.Domain.DTOs.HomeDTO
+@model HomeResponseDTO
+@{
+    ViewData["Title"] = "Home Page";
+   
+}
+
+<div class="text-center">
+    <h1 class="display-4">Procurador de Power Point</h1>
+    <p>Status: @Model.StatusCode</p>
+    <p>@Model.Message</p>
+   
+    <form method="post" asp-action="EnviarMensagem">
+        <textarea name="mensagemGemini"></textarea>
+        <button type="submit" class="btn btn-success">Enviar</button>
+    </form>
+</div>
