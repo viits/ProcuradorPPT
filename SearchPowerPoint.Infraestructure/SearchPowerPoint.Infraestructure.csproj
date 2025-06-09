@@ -1,0 +1,20 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Aspose.Slides.NET" Version="25.5.0" />
+    <PackageReference Include="DocumentFormat.OpenXml" Version="3.3.0" />
+    <PackageReference Include="Google.Cloud.AIPlatform.V1" Version="3.28.0" />
+    <PackageReference Include="Mscc.GenerativeAI.Google" Version="2.5.5" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\SearchPowerPoint.Domain\SearchPowerPoint.Domain.csproj" />
+  </ItemGroup>
+
+</Project>

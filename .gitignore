@@ -1,0 +1,20 @@
+################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+*.user
+/SearchPowerPoint/.vs
+/SearchPowerPoint.Application/.vs
+/SearchPowerPoint.Domain/.vs
+/SearchPowerPoint.Infraestructure/.vs
+/SearchPowerPointAPI/.vs
+/SearchPowerPoint/obj
+/SearchPowerPoint.Application/obj
+/SearchPowerPoint.Domain/obj
+/SearchPowerPoint.Infraestructure/obj
+/SearchPowerPointAPI/obj
+/SearchPowerPoint/bin
+/SearchPowerPoint.Application/bin
+/SearchPowerPoint.Domain/bin
+/SearchPowerPoint.Infraestructure/bin
+/SearchPowerPointAPI/bin
